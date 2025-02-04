@@ -4,10 +4,9 @@ Este proyecto es una herramienta web que permite generar datos sintéticos de pr
 
 La aplicación está desarrollada en **HTML, CSS y JavaScript** y funciona completamente en el navegador sin necesidad de servidores o bases de datos.
 
-# 📊 Generación de Datos de Previsión de Ventas
+Puedes acceder a la aplicación en el siguiente enlace:
+🔗 **[Generador de Datos Sintéticos - GitHub Pages](https://TU_USUARIO.github.io/GeneracionDatosPrevisionVentas/)**
 
-Esta herramienta permite generar datos sintéticos de previsión de ventas y exportarlos a Excel.  
-✅ **[Accede a la aplicación en GitHub Pages]([https://TU_USUARIO.github.io/GeneracionDatosPrevisionVentas/](https://raul27868.github.io/ICEX-GeneracionDatosPrevisionVentas/))**  
 
 ---
 
