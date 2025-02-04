@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Datos Sintéticos</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h2>Generador de Datos Sintéticos</h2>
+    
+    <label>Facturación:</label>
+    <input type="number" id="facturacion" value="21397418"><br>
+
+    <label>Año:</label>
+    <input type="number" id="anno" value="2023"><br>
+
+    <label>Incremento Anual (%):</label>
+    <input type="number" id="incremento_anual" value="6"><br>
+
+    <label>Productos (separados por comas):</label>
+    <input type="text" id="productos" value="P1,P2,P3"><br>
+
+    <label>Distribución de ventas en España (separados por comas):</label>
+    <input type="text" id="productos_ventas_spain" value="0.2,0.5,0.3"><br>
+
+    <label>Distribución de ventas en Portugal (separados por comas):</label>
+    <input type="text" id="productos_ventas_portugal" value="0.7,0.15,0.15"><br>
+
+    <label>Regiones España (separadas por comas):</label>
+    <input type="text" id="regiones_spain" value="ES61,ES30,ES51,ES52,ES21,ES11"><br>
+
+    <label>Regiones Portugal (separadas por comas):</label>
+    <input type="text" id="regiones_portugal" value="PT1A,PT11,PT19"><br>
+
+    <label>Distribución de ventas por región en España (separados por comas):</label>
+    <input type="text" id="regiones_ventas_spain" value="0.2,0.4,0.15,0.5,0.1,0.1"><br>
+
+    <label>Distribución de ventas por región en Portugal (separados por comas):</label>
+    <input type="text" id="regiones_ventas_portugal" value="0.4,0.35,0.25"><br>
+
+    <label>Distribución mensual (separados por comas):</label>
+    <input type="text" id="meses" value="0.085,0.085,0.085,0.085,0.085,0.085,0.06,0.06,0.085,0.085,0.085,0.115"><br>
+
+    <button onclick="generarExcel()">Generar</button>
+
+</body>
+</html>
