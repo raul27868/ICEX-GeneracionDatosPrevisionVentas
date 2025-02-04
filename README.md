@@ -4,6 +4,10 @@ Este proyecto es una herramienta web que permite generar datos sintéticos de pr
 
 La aplicación está desarrollada en **HTML, CSS y JavaScript** y funciona completamente en el navegador sin necesidad de servidores o bases de datos.
 
+## 🚀 Acceso rápido
+
+[![Ver en GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Visitar-blue?style=for-the-badge&logo=github)]([https://TU_USUARIO.github.io/GeneracionDatosPrevisionVentas/](https://raul27868.github.io/ICEX-GeneracionDatosPrevisionVentas/))
+
 ---
 
 ## 🚀 **Características**
